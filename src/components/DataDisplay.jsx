@@ -19,15 +19,9 @@ export const IdTokenData = (props) => {
         <>
             <div className="data-area-div">
                 <p>
-                    See below the claims in your <strong> ID token </strong>. For more information, visit:{' '}
-                    <span>
-                        <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/id-tokens#claims-in-an-id-token">
-                            docs.microsoft.com
-                        </a>
-                    </span>
+                    Claims relativi al <strong> TOKEN ID</strong>
                 </p>
                 <div className="data-area-div">
-                    <p>{props.idToken}</p>
                     <Table responsive striped bordered hover>
                         <thead>
                             <tr>
